@@ -39,7 +39,7 @@ namespace Part1_CyberChatBot
             Console.WriteLine();
         }
 
-        // The typewriter effect method i created will be used for all the bots responses, so the user can fee more engaged.
+        // The typewriter effect method i created will be used for all the bots responses, so the user can feel more engaged.
         public void TypewriterEffect(string text, ConsoleColor color)
         {
             Console.ForegroundColor = color;
