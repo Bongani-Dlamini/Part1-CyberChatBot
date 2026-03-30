@@ -29,6 +29,7 @@ namespace Part1_CyberChatBot
         }
 
         // Returns the matching conversation response, or null if no match is found.
+        // Reference: (W3Schools, n.d.) - C# For Loop: https://www.w3schools.com/cs/cs_for_loop.php
         public string GetConversationResponse(string lowerInput)
         {
             for (int i = 0; i < ConversationKeys.Length; i++)

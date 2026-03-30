@@ -7,6 +7,7 @@ namespace Part1_CyberChatBot
     internal class CyberQuestions
     {
         // Used parallel to store the questions and the answers
+        // Reference: (w3Schools, n.d.) - C# Arrays: https://www.w3schools.com/cs/cs_arrays.php
         public string[] Questions;
         public string[] Answers;
 
@@ -89,7 +90,7 @@ namespace Part1_CyberChatBot
 
             // Handles the topics keyword that the user will use in case they do not know what to ask the bot.
             // also i moved this bit of code from the UIHelper class, because the showavailabletopics method was giving me errors, so i removed it and moved the code here.
-            if (lowerInput == "topics")
+            if (lowerInput == "topics") //  Reference: (w3Schools, n.d.) - C# Strings https://www.w3schools.com/cs/cs_strings.php
             {
                 // Displays all available topics
                 gui.TypewriterEffect("Here are the topics you can ask me about:", ConsoleColor.Cyan);

@@ -13,7 +13,7 @@ namespace Part1_CyberChatBot
         {
             try
             {
-                SoundPlayer player = new SoundPlayer("Greeting.wav");
+                SoundPlayer player = new SoundPlayer("Greeting.wav"); // Reference: CloudConvert, n.d. - MP4 to WAV Converter: https://cloudconvert.com/mp4-to-wav
                 player.Play();
             }
             catch (Exception)
@@ -46,6 +46,7 @@ namespace Part1_CyberChatBot
             foreach (char letter in text)
             {
                 Console.Write(letter);
+                // Reference: (GeeksforGeeks, 2023) - Thread.Sleep Method: https://www.geeksforgeeks.org/c-sharp-thread-sleep-method/
                 Thread.Sleep(30); // what this does is that is that its adds a small delay for each letter that will be printed when the app is running.
             }
             Console.WriteLine();
