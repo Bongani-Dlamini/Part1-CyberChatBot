@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Media;
 using System.Text;
+using System.Threading; // Added this for Thread.Sleep
 
 namespace Part1_CyberChatBot
 {
@@ -36,6 +37,19 @@ namespace Part1_CyberChatBot
 
             Console.ResetColor();
             Console.WriteLine();
+        }
+
+        // The typewriter effect method i created will be used for all the bots responses, so the user can fee more engaged.
+        public void TypewriterEffect(string text, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            foreach (char letter in text)
+            {
+                Console.Write(letter);
+                Thread.Sleep(30); // what this does is that is that its adds a small delay for each letter that will be printed when the app is running.
+            }
+            Console.WriteLine();
+            Console.ResetColor();
         }
     }
 }
