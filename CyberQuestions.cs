@@ -71,7 +71,7 @@ namespace Part1_CyberChatBot
                 "The 'S' in HTTPS stands for 'Secure'. It means your connection to that website is private and encrypted.",                         
                 "Never log into your bank or private accounts on public Wi-Fi (like at a mall) as hackers can 'sniff' your data.",                 
                 "A DDoS attack is when hackers flood a website with so much fake traffic that the site crashes and stops working.",                  
-                "Never share your ID number, home address, or phone number with strangers online.",                                                 /
+                "Never share your ID number, home address, or phone number with strangers online.",                                                 
                 "Cookies are small files websites save on your computer to remember your settings or track your browsing.",                         
                 "This is when someone literally looks over your shoulder while you type your PIN or password at an ATM or laptop.",                 
                 "A brute force attack is when a hacker uses a computer to guess thousands of password combinations until they get yours.",          
